@@ -1,0 +1,23 @@
+{
+  "name": "ai-talentmatch",
+  "version": "1.0.0",
+  "description": "AI-Based Resume Matching & Ranking System",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "pytest backend/tests -v"
+  },
+  "keywords": [
+    "ai",
+    "resume-matching",
+    "fastapi",
+    "sentence-transformers",
+    "react",
+    "recruitment"
+  ],
+  "author": "AI TalentMatch Team",
+  "license": "MIT"
+}
+
